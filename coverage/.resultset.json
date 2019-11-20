@@ -183,10 +183,28 @@
         null,
         1,
         1,
+        1,
         null
       ],
       "/Users/jordanholtkamp/turing/mod2/projects/adopt_dont_shop/app/helpers/application_helper.rb": [
         1,
+        null
+      ],
+      "/Users/jordanholtkamp/turing/mod2/projects/adopt_dont_shop/spec/features/shelters/users_can_see_shelter_by_id_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
         null
       ],
       "/Users/jordanholtkamp/turing/mod2/projects/adopt_dont_shop/app/models/shelter.rb": [
@@ -203,6 +221,10 @@
         1,
         1,
         null,
+        null,
+        1,
+        1,
+        null,
         null
       ],
       "/Users/jordanholtkamp/turing/mod2/projects/adopt_dont_shop/app/controllers/application_controller.rb": [
@@ -211,6 +233,6 @@
         null
       ]
     },
-    "timestamp": 1574210862
+    "timestamp": 1574264514
   }
 }
