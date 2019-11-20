@@ -9,8 +9,5 @@ RSpec.describe "shelters index page", type: :feature do
 
     expect(page).to have_content(shelter_1.name)
     expect(page).to have_content(shelter_2.name)
-
-    expect(page).to have_content("Shelter: #{shelter_1.name}")
-    expect(page).to have_content("Shelter: #{shelter_2.name}")
   end
 end
