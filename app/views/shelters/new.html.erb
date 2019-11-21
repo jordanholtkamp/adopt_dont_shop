@@ -1,6 +1,21 @@
 <h2>Create Your Shelter</h2>
 
-<form action="/shelters" method="post">
+<%= form_tag '/shelters' do %>
+  <%= label_tag :name %>
+  <%= text_field_tag :name %><br><br>
+  <%= label_tag :address %>
+  <%= text_field_tag :address %><br><br>
+  <%= label_tag :city %>
+  <%= text_field_tag :city %><br><br>
+  <%= label_tag :state %>
+  <%= text_field_tag :state %><br><br>
+  <%= label_tag :zip %>
+  <%= text_field_tag :zip %><br><br>
+
+  <%= submit_tag 'Create Shelter' %>
+<% end %>
+
+<!-- <form action="/shelters" method="post">
 <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
 Shelter Name:<br>
 <input type="text" id='name' name ="shelter[name]"<br><br>
@@ -16,15 +31,6 @@ State:<br>
 <br>
 Zip Code:<br>
 <input type="text" id='zip' name ="shelter[zip]"<br>
-<br><br>
-<input type="submit" value="Submit">
-</form>
-
-<!-- First name:<br>
-<input type="text" name="firstname" value="Mickey">
-<br>
-Last name:<br>
-<input type="text" name="lastname" value="Mouse">
 <br><br>
 <input type="submit" value="Submit">
 </form> -->
