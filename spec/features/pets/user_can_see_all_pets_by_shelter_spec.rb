@@ -8,11 +8,11 @@ describe 'as a visitor', type: :feature do
       steve = otter_shelter.pets.create(image: "https://cdn.mainichi.jp/vol1/2018/05/12/20180512p2a00m0na022000p/9.jpg?4", name: 'Steve', approximate_age: 4, sex: 'Male')
       karen = cat_shelter.pets.create(image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuBI2oxO36Tx3myc68n_Dc_wKAVX3ffuEF3-JZR02-Ifh-uwho8w&s", name: 'Karen', approximate_age: 5, sex: 'Female')
 
-      visit "sheltes/#{otter_shelter.id}/pets"
+      visit "shelters/#{otter_shelter.id}/pets"
 
       expect(page).to have_content(steve.name)
       expect(page).to have_content(steve.approximate_age)
-      expect(page).to have(steve.sex)
+      expect(page).to have_content(steve.sex)
       expect(page).to have_css("img[src*= 'https://cdn.mainichi.jp/vol1/2018/05/12/20180512p2a00m0na022000p/9.jpg?4']")
 
       expect(page).to have_no_content(karen.name)
