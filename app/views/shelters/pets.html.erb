@@ -1,0 +1,10 @@
+<h1>All Pets at <%= @shelter.name %> </h1>
+
+<% @shelter.pets.each do |pet| %>
+  <img src= <%= pet.image %>><br>
+  <ul>
+    <li>Hi, I'm <%= pet.name %> </li>
+    <li>Age: <%= pet.approximate_age %> </li>
+    <li>Gender: <%= pet.sex %> </li>
+  </ul>
+<% end %>
