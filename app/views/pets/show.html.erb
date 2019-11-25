@@ -10,3 +10,4 @@
 </ul>
 
 <%= link_to 'Edit Pet', "/pets/#{@pet.id}/edit" %>
+<%= button_to 'Delete Pet', "/pets/#{@pet.id}", method: :delete %>
