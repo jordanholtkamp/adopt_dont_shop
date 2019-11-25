@@ -22,16 +22,3 @@ describe 'as a visitor' do
     end
   end
 end
-
-
-
-
-# User Story 12, Pet Delete
-#
-# As a visitor
-# When I visit a pet show page
-# Then I see a link to delete the pet
-# When I click the link
-# Then a 'DELETE' request is sent to '/pets/:id',
-# the pet is deleted,
-# and I am redirected to the pet index page where I no longer see this pet
