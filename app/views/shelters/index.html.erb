@@ -2,6 +2,10 @@
 
 <% @shelters.each do |shelter| %>
   <h3><%= shelter.name %></h3>
-<% end %>
+  <section id="shelter-<%= shelter.id %>">
+    <%= link_to 'Update', "/shelters/#{shelter.id}/edit" %>
+    <%= button_to 'Delete', "/shelters/#{shelter.id}", method: :delete %>
+  </section>
+<% end %><br>
 
-<a href="/shelters/new">Create A New Shelter</a>
+<%= link_to 'Create A New Shelter', '/shelters/new' %>
