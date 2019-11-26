@@ -7,11 +7,11 @@
     <%= link_to 'Edit Pet Info', "/pets/#{pet.id}/edit" %>
     <%= button_to 'Delete Pet', "/pets/#{pet.id}", method: :delete %>
   </section>
-  
+
    <ul>
-     <li>This is <%= pet.name %></li>
+     <li>This is  <%= link_to "#{pet.name}", "/pets/#{pet.id}" %></li>
      <li>Age: <%= pet.approximate_age %></li>
      <li>Sex: <%= pet.sex %></li>
-     <li>Current Shelter: <%= pet.shelter.name %></li>
+     <li>Current Shelter: <%= link_to "#{pet.shelter.name}", "/shelters/#{pet.shelter_id}" %></li>
    </ul>
 <% end %>
