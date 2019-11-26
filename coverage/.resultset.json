@@ -203,6 +203,45 @@
         1,
         null
       ],
+      "/Users/jordanholtkamp/turing/mod2/projects/adopt_dont_shop/spec/features/pets/user_can_delete_pet_from_index_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
       "/Users/jordanholtkamp/turing/mod2/projects/adopt_dont_shop/spec/features/pets/user_can_delete_pet_spec.rb": [
         1,
         null,
@@ -600,7 +639,7 @@
       "/Users/jordanholtkamp/turing/mod2/projects/adopt_dont_shop/app/controllers/pets_controller.rb": [
         1,
         1,
-        3,
+        6,
         null,
         null,
         1,
@@ -630,8 +669,8 @@
         null,
         null,
         1,
-        1,
-        1,
+        3,
+        3,
         null,
         null,
         1,
@@ -681,7 +720,7 @@
         null,
         null,
         1,
-        4,
+        5,
         null,
         null,
         1,
@@ -691,6 +730,6 @@
         null
       ]
     },
-    "timestamp": 1574735119
+    "timestamp": 1574736384
   }
 }
