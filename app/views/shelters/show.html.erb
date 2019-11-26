@@ -1,4 +1,10 @@
 <h1><%= @shelter.name %></h1>
+
+<nav>
+  <%= link_to "All Shelters", "/shelters" %>
+  <%= link_to "All Pets", "/pets" %>
+</nav>
+
 <ul>
   <li>Address: <%= @shelter.address %></li>
   <li>City: <%= @shelter.city %></li>

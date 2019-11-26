@@ -1,5 +1,10 @@
 <h1>All Pets</h1>
 
+<nav>
+  <%= link_to "All Shelters", "/shelters" %>
+  <%= link_to "All Pets", "/pets" %>
+</nav>
+
 <% @pets.each do |pet| %>
   <img src= <%= pet.image %>><br>
 

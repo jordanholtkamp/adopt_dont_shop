@@ -1,5 +1,10 @@
 <h2>Create Your Shelter</h2>
 
+<nav>
+  <%= link_to "All Shelters", "/shelters" %>
+  <%= link_to "All Pets", "/pets" %>
+</nav>
+
 <%= form_tag '/shelters' do %>
   <%= label_tag :name %>
   <%= text_field_tag :name %><br><br>

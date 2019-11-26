@@ -1,5 +1,10 @@
 <h1>Hi, I'm <%= @pet.name %></h1>
 
+<nav>
+  <%= link_to "All Shelters", "/shelters" %>
+  <%= link_to "All Pets", "/pets" %>
+</nav>
+
 <img src= <%= @pet.image %>><br>
 
 <ul>
