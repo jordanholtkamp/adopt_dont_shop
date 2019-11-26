@@ -1,3 +1,5 @@
+<h1>Form for New Pet At <%= link_to "#{@shelter.name}", "/shelters/#{@shelter.id}" %></h1>
+
 <%= form_tag "/shelters/#{@shelter.id}/pets" do %>
   <%= label_tag :image_url %>
   <%= text_field_tag :image %><br><br>
