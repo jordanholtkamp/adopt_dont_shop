@@ -11,7 +11,7 @@
   <li>State: <%= @shelter.state %></li>
   <li>Zip Code: <%= @shelter.zip %></li>
 </ul>
-
+<%= link_to "All pets at #{@shelter.name}", "/shelters/#{@shelter.id}/pets" %>
 <%= link_to 'Edit', "/shelters/#{@shelter.id}/edit" %>
 <%= button_to 'Delete Shelter', "/shelters/#{@shelter.id}", method: :delete %>
 
