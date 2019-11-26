@@ -1,9 +1,8 @@
-<h1>All Pets</h1>
-
 <nav>
+  <h1 class='headers'>All Pets</h1>
   <%= link_to "All Shelters", "/shelters" %>
   <%= link_to "All Pets", "/pets" %>
-</nav>
+</nav><br><br>
 
 <% @pets.each do |pet| %>
   <img src= <%= pet.image %>><br>

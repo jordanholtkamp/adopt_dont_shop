@@ -19,4 +19,12 @@ body {
 
 nav {
   text-align: right;
+  border-style:  outset;
+  padding: 20px;
+  background-image: linear-gradient(to right, DodgerBlue, LightBlue);
+}
+
+.headers{
+  text-align: left
+  /* text-size:  */
 }
